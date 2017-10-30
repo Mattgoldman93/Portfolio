@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Matthew Goldman's Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="node_modules/flickity/css/flickity.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="node_modules/flickity/dist/flickity.pkgd.js"></script>
+    </head>
+    <body class="container is-fluid">
+      <br>
+      <section class="hero is-dark is-fullheight is-bold is padded" >
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title is-large ">Matthew Goldman</h1>
+            <h2 class="subtitle">Adaptable, Driven Full Stack Developer. </h2>
+          </div>
+          <nav class="tabs">
+            <div class="container">
+              <ul class="is-bold">
+                <li><a href="#about">About</a></li>
+                <li><a href="#my-work">My Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <hr>
+          </nav>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="hero-body about content is-medium is-light">
+          <h1 class="title">About</h1>
+          <p>I've always been one to approach tasks differently and view challenges from varying perspectives as I solve them. My love of learning and examination led me to study philosophy as an undergraduate. It is surprising to many people that from this background I would enter the tech industry; at their cores, however, philosophy and programming are both works of logic and problem solving.
+          My aim as a developer is to build technology that brings new possibilities and opportunities for personal edification to as many people as possible. As a lifelong learner I fully intend to continue developing my skills constantly in order to reach this aim.
+        </p>
+        </div>
+      </section>
+      <div class="hero about content is-medium is-light" id="my-work">
+        <div class="container">
+          <h1 class="title">My work</h1>
+          <p>Below is a sample of some of the projects I have worked on.</p>
+
+          <div class="carousel" data-flickity=' {"wrapAround": true, "imagesLoaded": true, "percentPosition": false }'>
+
+            <div class="carousel-cell">
+              <h3>Tic Tac Toe</h3>
+              <a href="https://mattgoldman93.github.io/MG-tictactoe-project">
+                <img src="https://i.imgur.com/nazAJxK.png" alt="tic-tac-toe web app">
+              </a>
+              <p>
+                A simple game of tic-tac-toe. Designed with HTML and SASS, programmed in JavaScript.
+              </p>
+            </div>
+
+            <div class="carousel-cell">
+              <h3>Records</h3>
+              <a href="https://mattgoldman93.github.io/music-app-frontend">
+                <img src="https://i.imgur.com/yReV08z.png" alt="music app">
+              </a>
+              <p>
+                A simple app intended to help users keep a record of their music collection. API built with ruby and ruby on rails.
+              </p>
+            </div>
+            <div class="carousel-cell">
+              <h3>FileDumpling</h3>
+              <a href="https://4knclone.github.io/FileDumpling">
+                <img src="https://i.imgur.com/5Lbt78U.png" alt="File Dumpling">
+              </a>
+              <p>
+                A file storage application built as a team using a Scrum development workflow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container resume-link hero is-fullheight" id="resume">
+        <h1 class="title">Resume</h1>
+        <embed src="Matthew_Goldman_Third_Draft_Resume.pdf" type="application/pdf" height="1000"class="resume-link">
+      <br>
+      </div>
+      <footer id='contact'>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.linkedin.com/in/matthew-goldman/">
+            <p><i class="fa-linkedin-square"></i> LinkedIn</p>
+          </a>
+          <a class="navbar-item" href="mailto:mattgoldman93@gmail.com">
+            <p><i class="fa-envelope"></i> Email</p>
+          </a>
+          <a class="navbar-item" href="https://github.com/Mattgoldman93">
+            <p><i class='fa-github'></i> GitHub</p>
+          </a>
+          </div>
+        </nav>
+      </footer>
+    </body>
+</html>
